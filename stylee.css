@@ -1,0 +1,50 @@
+@font-face{
+    src:url("Challista.otf");
+    font-family: 'Challista';
+}
+@font-face{
+    src:url("Shorelines.otf");
+    font-family: 'Shorelines'
+}
+ul{
+    font-family: 'Poppins', sans-serif;
+}
+h1{
+    font-family: 'Shorelines'; 
+    font-size:650%;
+    text-shadow: 3px 3px #000000;
+}
+.a{
+    text-align: center
+}
+body{
+    background-image:url("55.jpg");
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100%
+}
+.nav{
+    list-style-type: none;
+    margin: -8px;
+    padding:0;
+    overflow: hidden;
+    background-color: rgba(97,125,91,.7);
+}
+.navi{
+    float: left;
+}
+.navi a{
+    display: block;
+    color:white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+a:hover{
+    text-shadow: 2px 2px #424344;
+}
+.nav #right{
+    float:right;
+}
