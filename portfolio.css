@@ -1,0 +1,72 @@
+@font-face{
+    src:url("Shorelines.otf");
+    font-family: 'Shorelines'
+}
+ul{
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-image: url("games.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-color:powderblue;
+    font-family: 'Poppins', sans-serif;
+}
+.nav{
+    list-style-type: none;
+    margin: -8px;
+    padding:0;
+    overflow: hidden;
+    background-color: rgba(97,125,91,.7);
+}
+.navi{
+    float: left;
+}
+.navi a{
+    display: block;
+    color:white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+a:hover{
+    text-shadow: 2px 2px #424344;
+}
+#content{
+    text-align: center;
+    font-size: 100%;
+    border-style: solid;
+    border-width: 4px;
+    border-color:black;
+    margin-top:20px;
+    width:68%;
+    margin-left: auto;
+    margin-right:auto;
+    padding-bottom: 20px;
+    background-color: rgba(255,255,255,0.9);
+}
+b:hover{
+    color: black;
+}
+#content ul,#content ol{
+    width:25%;
+    margin:auto;
+}
+h1{
+    font-family: 'Shorelines';
+    font-size: 300%;
+    text-shadow: 2px 2px #A9A9A9;
+}
+h2{
+    font-size: 250%;
+    text-shadow: 2px 2px #A9A9A9;
+}
+.nav #right{
+    float:right;
+}
+h4{
+    font-family: 'Shorelines';
+    font-size: 150%;
+    text-shadow: 2px 2px #A9A9A9;
+}
